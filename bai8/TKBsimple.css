@@ -1,0 +1,12 @@
+div.a {
+    text-align: center;
+}
+#TB1 {
+    width: 1000px;
+    align-self: center;
+    color: blue;
+}
+#TB2 {
+    width: 800px;
+    border-collapse: collapse;
+}

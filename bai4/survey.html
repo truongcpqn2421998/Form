@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<style>
+    table tr:nth-child(odd){background-color: gray}
+</style>
+<body>
+<h2>Market Reaseach Survey</h2>
+<p>Please take a few moments to complete this satisfaction survey.</p>
+<hr>
+<form>
+<p>What is your age range?</p><br>
+<select name="age" style="width: 500px " >
+        <option value="18-24">18-24</option>
+        <option value="25-30">25.30</option>
+</select>
+<p>What is your yearly income range?</p>
+<select name="money" style="width: 500px " >
+    <option value="$0-$25,000">$0-$25,000</option>
+    <option value="$26,000-$30,000">$26,000-$30,000</option>
+</select>
+<p>Gender Identity</p>
+<input type="radio" name="Gender" value="Male">Male<br>
+<input type="radio" name="Gender" value="Female">Female<br>
+<input type="radio" name="Gender" value="Nonbinary">Nonbinary<br>
+<input type="radio" name="Gender" value="Other">Other<br>
+<input type="text" name="Gender">
+<p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+    <input type="checkbox" name="product" value="product1">product 1<br>
+    <input type="checkbox" name="product" value="product2">product 2<br>
+    <input type="checkbox" name="product" value="product3">product 3<br>
+<p>How often would you use our new product?</p>
+    <input type="radio" name="HowOften" value="Daily">Daily<br>
+    <input type="radio" name="HowOften" value="Weekly">Weekly<br>
+    <input type="radio" name="HowOften" value="Monthly">Monthly<br>
+<p>What would you pay for the new product?</p>
+    $
+    <input type="text" size="5">.
+    <input type="text" size="1">
+<p>What features would you like to see in the new product.</p>
+<input tyoe="text" name="features" style="height: 70px;width: 800px">
+<p>Please rate your level of agreement with the following statements</p>
+<table border="1" >
+    <tr><div>
+        <th></th>
+        <th>Strongly diagree</th>
+        <th>Diagree</th>
+        <th>Agee</th>
+        <th>Strongly diagree</th>
+    </div>
+    </tr>
+    <tr>
+        <td>Our products are priced fairly</td>
+        <td><input type="radio"name="fairly" value="1">1 </td>
+        <td><input type="radio"name="fairly" value="2">2 </td>
+        <td><input type="radio"name="fairly" value="3">3 </td>
+        <td><input type="radio"name="fairly" value="4">4 </td>
+    </tr>
+    <tr>
+        <td>Our products are high quality</td>
+        <td><input type="radio"name="quality" value="1">1 </td>
+        <td><input type="radio"name="quality" value="2">2 </td>
+        <td><input type="radio"name="quality" value="3">3 </td>
+        <td><input type="radio"name="quality" value="4">4 </td>
+    </tr>
+    <tr>
+        <td>You would recomement our product to a friend or coworker</td>
+        <td><input type="radio"name="priced" value="1">1 </td>
+        <td><input type="radio"name="priced" value="2">2 </td>
+        <td><input type="radio"name="priced" value="3">3 </td>
+        <td><input type="radio"name="priced" value="4">4 </td>
+    </tr>
+</table>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
