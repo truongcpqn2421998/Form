@@ -1,0 +1,15 @@
+.W{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+}
+.B{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+table{
+    background-color:orange;
+
+}
+table {  margin-left: auto; margin-right: auto; }
